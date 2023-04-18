@@ -1,0 +1,54 @@
+/* body {
+  background-image: url("ing.jpg");
+} */
+/* body {
+  
+} */
+.bod {
+  background-image: url("https://images.unsplash.com/photo-1472149110793-7aa262859995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MTk3NzMwMnx8ZW58MHx8fHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+
+.quote {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  color: #333;
+}
+
+.h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #333;
+}
+
+
+.button {
+  position: relative;
+  /* top: 0; */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #666;
+}
